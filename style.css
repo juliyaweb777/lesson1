@@ -1,0 +1,84 @@
+/* form{
+    width: 400px;
+    background-color: darkcyan;
+    margin: auto;
+    padding: 15px;
+}
+.name{
+    width: 250px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.536);
+    border: 1px solid gray;
+    outline: none;
+}
+.name::placeholder{
+    color: black;
+}
+#text{
+    width: 300px;
+    height: 150px;
+    resize: none;
+}
+.send{
+    width: 200px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+} */
+.contact{
+    background-color: green;
+    padding: 150px 0;
+}
+.form{
+    width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.form input{
+    padding: 15px;
+    margin-bottom: 23px;
+    outline: none;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.556);
+}
+.inputs input{
+    width: 42%;
+}
+.inputs{
+    display: flex;
+    justify-content: space-between;   
+}
+#text{
+    height: 170px;
+    padding: 15px;
+    resize: none;
+    outline: none;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.556);
+}
+.btn{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(36, 180, 180);
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    display: block;
+    margin: 30px auto;
+    cursor: pointer;
+}
+.link{
+    color: red;
+    text-decoration: none;
+    border-bottom: 1px dashed red;
+}
+.my-input{
+   background-color: rgba(255, 255, 255, 0.4); 
+   /* background-color: #fff;
+   background-color: white; */
+   width: 400px;
+   padding: 15px;
+   border: 2px solid white;
+   border-radius: 10px;
+}
